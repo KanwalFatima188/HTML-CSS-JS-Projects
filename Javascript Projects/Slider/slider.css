@@ -1,0 +1,41 @@
+body {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 95px;
+    background-repeat: no-repeat;
+
+}
+
+.arrow {
+    height: 150px;
+    cursor: pointer;
+}
+
+.right {
+    transform: rotate(180deg);
+}
+
+.frame {
+ 
+    margin-top: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; 
+}
+
+.slide {
+    width: 150%; 
+   
+}

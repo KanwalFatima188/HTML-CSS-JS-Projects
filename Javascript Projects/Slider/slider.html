@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating slider</title>
+    <link rel="stylesheet" href="./slider.css">
+</head>
+<body>
+
+    <div class="container">
+        <img src="./arrow2.png" class="arrow left" onclick="moveSlide(-1)">
+        <div class="frame">
+            <div class="slider">
+                <img src="https://picsum.photos/id/234/1000/500"  class="slide">
+                <img src="https://picsum.photos/id/235/1000/500"  class="slide">
+                <img src="https://picsum.photos/id/236/1000/500"  class="slide">
+                <img src="https://picsum.photos/id/237/1000/500"  class="slide">
+                <img src="https://picsum.photos/id/238/1000/500"  class="slide">
+                <img src="https://picsum.photos/id/239/1000/500"  class="slide">
+                <img src="https://picsum.photos/id/240/1000/500"  class="slide">
+            </div>
+        </div>
+        <img src="./arrow2.png" class="arrow right" onclick="moveSlide(1)">
+    </div>
+    
+<script src="./slider.js"></script>
+</body>
+</html>
